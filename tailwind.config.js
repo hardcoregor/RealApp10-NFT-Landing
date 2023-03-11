@@ -19,6 +19,7 @@ module.exports = {
       backgroundImage: {
         'prologue': "url('../assets/head.jpg')",
         'main': "url('../assets/main.png')",
+        'cards': "url('../assets/cards.jpg')",
         'outline': "url('../assets/addons/buttonOutline.png')",
       },
       backgroundSize: {
