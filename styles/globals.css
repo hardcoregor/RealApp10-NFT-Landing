@@ -2,7 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
-
-.html, body, root {
-  font-family: 'Reenie Beanie';
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');

@@ -13,11 +13,23 @@ module.exports = {
       '0': '0.5px',
     },
     extend: {
+      width: {
+        '60%': '60%',
+      },
       backgroundImage: {
         'prologue': "url('../assets/head.jpg')",
+        'main': "url('../assets/main.png')",
+        'outline': "url('../assets/addons/buttonOutline.png')",
+      },
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '50%': '50%',
+        '16': '4rem',
       },
       fontFamily: {
-        'reeni': ['Reenie Beanie', 'sans-serif']
+        'raleway': ['Raleway', 'Raleway']
       },
     },
   },
