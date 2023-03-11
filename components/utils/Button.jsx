@@ -1,5 +1,4 @@
 import React from 'react'
-import outline from '../../assets/addons/buttonOutline.png'
 
 const Button = ({ classes,text }) => {
   return (

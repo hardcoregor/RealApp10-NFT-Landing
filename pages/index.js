@@ -4,9 +4,12 @@ import Header from "../components/Header";
 import shmat from "../assets/shmat1.png";
 import shmat2 from "../assets/shmat2.png";
 import shmat3 from "../assets/shmat3.png";
+import shmat4 from "../assets/shmat4.png";
 import Image from "next/image";
 import Main from "@/components/Main";
 import Cards from "@/components/Cards";
+import Pickle from "@/components/Pickle";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -28,6 +31,11 @@ export default function Home() {
       <div className="w-full absolute top-[2750px] z-10 object-fill">
         <Image src={shmat3} alt="prolog" className="w-full h-[590px]" />
       </div>
+      <Pickle />
+      <div className="w-full absolute top-[3870px] z-10 object-fill">
+        <Image src={shmat4} alt="prolog" className="w-full h-[295px]" />
+      </div>
+      <Footer />
     </div>
   );
 }
