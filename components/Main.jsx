@@ -6,8 +6,9 @@ import Button from './utils/Button';
 
 const Main = () => {
   return (
-    <div className='w-full h-full bg-main bg-no-repeat bg-cover bg-[center_top_0px] pb-[190px]'>
-      <div className='flex flex-col pt-[400px] ml-[12%]'>
+    // <div className='w-full absolute top-[1130px] bg-main bg-no-repeat bg-cover bg-[center_top_0px] pb-[190px] -z-10'>
+    <div className='w-full bg-no-repeat bg-cover bg-[center_top_0px] pb-[190px] z-10'>
+      <div className='flex flex-col ml-[12%]'>
         <h1 className='text-white text-6xl w-[23%]'>The Background</h1>
         <h2 className={`text-white font-semibold ${raleway.className} mt-[22px] mb-[34px] w-[23%]`}>Theory of Heinrich Altshuler — always start planning with the ideal end result</h2>
         <p className={`text-white w-[38%] text-[16px] leading-[24px] ${raleway.className}`}>"The Pickle Adventure team works every day to achieve the highest quality and usefulness of the product in the ecosystem, behind the scenes of Pickle Adventure we try to make a Bluechip project with a long-term perspective.

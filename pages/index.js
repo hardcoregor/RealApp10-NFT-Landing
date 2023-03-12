@@ -13,27 +13,21 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="">
-      <div className="absolute w-full h-[75px] z-10">
+    <div className=" bg-whole bg-no-repeat bg-cover bg-[center_top_0px]">
+      <div className="w-full h-[75px] fixed z-20">
         <Header />
       </div>
       <div className="">
         <Prologue />
       </div>
-      <div className="w-full absolute top-[500px] z-10 object-fill">
-        <Image src={shmat} alt="prolog" className="w-full h-[700px]" />
+      <div id="background">
+        <Main />
       </div>
-      <Main />
-      <div className="w-full absolute top-[1800px] z-10 object-fill">
-        <Image src={shmat2} alt="prolog" className="w-full h-[395px]" />
+      <div id="collection">
+        <Cards />
       </div>
-      <Cards />
-      <div className="w-full absolute top-[2750px] z-10 object-fill">
-        <Image src={shmat3} alt="prolog" className="w-full h-[590px]" />
-      </div>
+      <div id="project">
       <Pickle />
-      <div className="w-full absolute top-[3870px] z-10 object-fill">
-        <Image src={shmat4} alt="prolog" className="w-full h-[295px]" />
       </div>
       <Footer />
     </div>

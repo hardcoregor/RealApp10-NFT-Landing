@@ -17,7 +17,9 @@ module.exports = {
         '60%': '60%',
       },
       backgroundImage: {
-        'prologue': "url('../assets/head.jpg')",
+        'blur': "url('../assets/addons/blur.svg')",
+        'prologue': "url('../assets/heads.png')",
+        'whole': "url('../assets/Whole.jpg')",
         'main': "url('../assets/main.png')",
         'cards': "url('../assets/cards.jpg')",
         'pickle': "url('../assets/pickle.jpg')",
@@ -39,6 +41,9 @@ module.exports = {
       fontFamily: {
         'raleway': ['Raleway', 'Raleway']
       },
+      boxShadow: {
+        '3xl': '0px 0px 50px 30px rgba(103, 195, 7, 0.5)',
+      }
     },
   },
   plugins: [],

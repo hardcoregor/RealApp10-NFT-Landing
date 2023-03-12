@@ -3,3 +3,18 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.glow:hover {
+  text-shadow: 0 0 10px #67C307,
+  0 0 40px #67C307,
+  0 0 60px #67C307,
+  0 0 100px #67C307,
+  0 0 140px #67C307,
+  0 0 240px #67C307,
+  0 0 300px #67C307;
+}
+
+.glow:active {
+  text-decoration: underline;
+  text-underline-offset: 30px;
+}

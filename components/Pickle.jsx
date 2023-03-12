@@ -3,8 +3,9 @@ import { raleway } from '../utils/fonts'
 
 const Pickle = () => {
   return (
-    <div className='w-full h-full bg-pickle bg-no-repeat bg-cover bg-[center_top_0px] pb-[280px]'>
-      <div className='text-white pt-[390px] ml-[190px] w-[38%]'>
+    // <div className='w-full h-full bg-pickle bg-no-repeat bg-cover bg-[center_top_0px] pb-[280px]'>
+    <div className='w-full h-full bg-no-repeat bg-cover bg-[center_top_0px] pb-[280px]'>
+      <div className='text-white pt-[300px] ml-[190px] w-[38%]'>
         <h1 className='text-7xl'>The Project</h1>
         <p className={`mt-[41px] font-thin text-[20px] leading-[27px] ${raleway.className}`}>The Pickle Adventure project is the first step in the creation of the Empty Jar ecosystem that we are building on the Solana blockchain. The ecosystem will bring together different projects, mechanics and applications that will be linked by one token and one universe.</p>
         <p className={`mt-[20px] font-thin text-[20px] leading-[27px] ${raleway.className}`}>

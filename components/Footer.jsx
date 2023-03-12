@@ -12,10 +12,11 @@ import ButChat from './utils/ButChat'
 
 const Footer = () => {
   return (
-    <div className='w-full h-full bg-footer bg-no-repeat bg-cover bg-[center_top_0px] relative'>
+    // <div className='w-full h-full bg-footer bg-no-repeat bg-cover bg-[center_top_0px] relative'>
+    <div className='w-full h-full bg-no-repeat bg-cover bg-[center_top_0px] relative'>
 
       <div className='flex flex-col justify-center items-center'>
-        <h1 className='text-white text-7xl mt-[200px]'>Adventure Pickle Principles</h1>
+        <h1 className='text-white text-7xl mt-[300px]'>Adventure Pickle Principles</h1>
 
         <div className='flex flex-wrap mt-[70px] justify-between w-full px-[200px]'>
           <div className={`justify-center items-center text-white bg-block1 bg-no-repeat bg-cover bg-[center_top_-10px] h-[425px] w-[360px] cursor-pointer`}>
