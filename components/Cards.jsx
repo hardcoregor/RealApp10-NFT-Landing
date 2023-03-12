@@ -8,7 +8,7 @@ const Cards = () => {
     // <div className='w-full h-full bg-cards bg-no-repeat bg-cover bg-[center_top_0px]'>
     <div className='w-full h-full bg-no-repeat bg-cover bg-[center_top_0px]'>
       <div className='flex pt-[170px]'>
-        <div className='w-[40%]'>
+        <div className='w-[40%] '>
           <div className='flex flex-col text-white mt-[50px] ml-[170px]'>
             <h1 className='text-7xl'>A Collection Driven</h1>
             <h2 className={`mt-[22px] mb-[34px] font-semibold ${raleway.className}`}>Theory of Heinrich Altshuler — always start planning with the ideal end result</h2>
@@ -23,6 +23,7 @@ const Cards = () => {
           alt="cards"
           // height={1050}
           style={{objectFit:"contain"}}
+          className="md:hidden"
         />
       </div>
     </div>

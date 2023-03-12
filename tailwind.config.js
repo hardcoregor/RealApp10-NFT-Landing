@@ -20,6 +20,7 @@ module.exports = {
         'blur': "url('../assets/addons/blur.svg')",
         'prologue': "url('../assets/heads.png')",
         'whole': "url('../assets/Whole.jpg')",
+        'mdwhole': "url('../assets/WholeMd.jpg')",
         'main': "url('../assets/main.png')",
         'cards': "url('../assets/cards.jpg')",
         'pickle': "url('../assets/pickle.jpg')",
