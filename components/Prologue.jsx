@@ -16,7 +16,7 @@ const Prologue = () => {
             height={550}
           />
         </div>
-        <div className='flex flex-col items-center mb-[1100px]'>
+        <div className='flex flex-col items-center mb-[300px]'>
           <div className='text-white text-[64px]'>
             Prologue
           </div>

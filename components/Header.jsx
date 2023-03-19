@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import disc from '../assets/socials/disc.png'
 import tw from '../assets/socials/tw.png'
+import burger from '../assets/addons/menu.png'
 import play from '../assets/socials/play.png'
 import { Link } from 'react-scroll'
 import menu from '../assets/addons/menu.png'
@@ -18,14 +19,16 @@ const Header = () => {
       <div className='bg-black opacity-20 h-[75px] w-full absolute -z-10' />
 
       <div className='flex w-full h-full justify-between items-center'>
-        <Link to="#" className='font-medium text-3xl cursor-pointer pl-[40px] 2xl:pl-[60px]'>Adventure Pickle</Link>
-        <Image
-            src={tw}
-            alt="discord"
-            // height={35}
-            className="mr-[23px] cursor-pointer text-center"
+        <Link to="#" className='w-[75%] lg:w-[20%] font-medium text-3xl cursor-pointer pl-[40px] 2xl:pl-[60px]'>Adventure Pickle</Link>
+        <div className='lg:hidden w-[25%] flex justify-end mr-[40px]'>
+          <Image
+            src={burger}
+            alt="burger-menu"
+            height={35}
+            className="cursor-pointer text-center"
             style={{ objectFit: "contain" }}
           />
+        </div>
         <div className='flex text-3xl items-center text-white '>
           <Link to="background" spy={true} smoot={true} offset={-170} duration={5000} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>Background</Link>
           <Link to="collection" spy={true} smoot={true} offset={0} duration={5000} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>Collection</Link>
@@ -53,7 +56,7 @@ const Header = () => {
             style={{ objectFit: "contain" }}
           />
         </div>
-        <div className='hidden md:flex 2xl:hidden pr-[40px]'>
+        <div className='hidden lg:flex 2xl:hidden pr-[40px]'>
           <Image
             src={tw}
             alt="discord"

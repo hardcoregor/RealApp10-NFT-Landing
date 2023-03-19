@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-whole bg-no-repeat bg-auto bg-[center_top_0px]">
+    <div className="bg-whole bg-no-repeat bg-cover bg-[center_top_0px]">
       <div className="w-full h-[75px] fixed z-20">
         <Header />
       </div>
@@ -24,12 +24,12 @@ export default function Home() {
         <Main />
       </div>
       <div id="collection">
-        {/* <Cards /> */}
+        <Cards />
       </div>
       <div id="project">
-      {/* <Pickle /> */}
+      <Pickle />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
