@@ -26,7 +26,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ once: false, amount: 0.25 }}
           variants={fadeIn('right', 'tween', 0.3, 0.5)}
           className='hidden lg:hidden md:flex top-40 -left-40 absolute'
         >
@@ -40,7 +40,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ once: false, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.4, 0.5)}
           className='hidden lg:hidden md:flex absolute right-0 top-40'
         >
@@ -54,14 +54,14 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ once: false, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.5, 0.5)}
-          className='hidden lg:hidden md:flex absolute right-0 top-[870px]'
+          className='hidden lg:hidden md:flex absolute right-0 top-[880px]'
         >
           <Image
             src={polo3}
             alt="prolog"
-            height={700}
+            height={550}
           />
         </motion.div>
 
@@ -69,7 +69,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ once: false, amount: 0.25 }}
           variants={fadeIn('right', 'tween', 0.3, 0.5)}
           className='hidden 2xl:hidden lg:flex top-40 absolute'
         >
@@ -83,7 +83,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ once: false, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.4, 0.5)}
           className='hidden 2xl:hidden lg:flex absolute right-0 top-40'
         >
@@ -97,14 +97,14 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ once: false, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.5, 0.5)}
-          className='hidden 2xl:hidden lg:flex absolute right-0 top-[800px]'
+          className='hidden 2xl:hidden lg:flex absolute right-0 top-[670px]'
         >
           <Image
             src={polo3}
             alt="prolog"
-            height={900}
+            height={850}
           />
         </motion.div>
 
@@ -112,7 +112,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ once: false, amount: 0.25 }}
           variants={fadeIn('right', 'tween', 0.3, 0.5)}
           className='hidden 2xl:flex absolute'
         >
@@ -126,7 +126,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ once: false, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.4, 0.5)}
           className='hidden 2xl:flex absolute right-0 top-40'
         >
@@ -140,14 +140,14 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ once: false, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.5, 0.5)}
           className='hidden 2xl:flex absolute right-0 top-[600px]'
         >
           <Image
             src={polo3}
             alt="prolog"
-            height={1200}
+            height={1000}
           />
         </motion.div>
 
@@ -155,10 +155,10 @@ const Prologue = () => {
           <div className='text-white text-[64px]'>
             Prologue
           </div>
-          <p className={`text-white w-[80%] md:w-70% lg:w-60% text-[14px] leading-[19px] text-center z-20 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+          <p className={`text-white sm:text-lg w-[80%] md:w-70% lg:w-60% text-[14px] leading-[19px] text-center z-20 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
           </p>
           <p className={`text-white w-[80%] md:w-70% lg:w-60% text-[14px] leading-[19px] text-center z-20 ${raleway.className}`}>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-          <Button classes={'mt-[35px] cursor-pointer z-20'} text={'Read more'} />
+          <Button classes={'mt-[35px] cursor-pointer z-20 glowBtn'} text={'Read more'} />
         </div>
       </div>
     </div >

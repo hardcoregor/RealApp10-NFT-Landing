@@ -12,37 +12,37 @@ import ButChat from './utils/ButChat'
 
 const Footer = () => {
   return (
-    <div className='w-full h-full bg-no-repeat bg-cover bg-[center_top_0px] relative'>
+    <div className='w-full h-full bg-no-repeat bg-cover bg-[center_top_0px] relative xl:mt-[600px] 2xl:mt-[350px]'>
 
       <div className='flex flex-col justify-center items-center'>
-        <h1 className='text-white text-7xl mt-[300px]'>Adventure Pickle Principles</h1>
+        <h1 className='text-white text-7xl sm:px-10 sm:text-6xl sm:mt-[200px] lg:mt-[150px]'>Adventure Pickle Principles</h1>
 
-        <div className='flex flex-wrap mt-[70px] justify-between w-full px-[20px] lg:px-[200px]'>
-          <div className={`justify-center items-center text-white bg-block1 bg-no-repeat bg-cover bg-[center_top_-10px] h-[425px] w-[360px] cursor-pointer`}>
+        <div className='flex sm:flex-wrap md:flex-wrap mt-[70px] justify-between w-full px-[20px] lg:px-[100px]'>
+          <div className={`justify-center items-center text-white bg-block1 bg-no-repeat bg-cover bg-[center_top_-10px] sm:h-1/2 sm:w-1/2 h-[380px] w-[330px] cursor-pointer`}>
             <div className='flex flex-col mt-[190px] items-center'>
-              <h1 className='text-3xl'>Narrative</h1>
-              <p className={`mt-[8px] font-thin text-[15px] leading-[17px] text-center px-10 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h1 className='text-3xl sm:-mt-10 glowBtn'>Narrative</h1>
+              <p className={`sm:my-[20px] sm:pb-7 font-thin text-[15px] leading-[17px] text-center px-10 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
 
-          <div className={`justify-center items-center text-white bg-block2 bg-no-repeat bg-cover bg-[center_top_-10px] h-[425px] w-[360px] cursor-pointer`}>
+          <div className={`justify-center items-center text-white bg-block2 bg-no-repeat bg-cover bg-[center_top_-10px] sm:h-1/2 sm:w-1/2 h-[380px] w-[330px] cursor-pointer`}>
             <div className='flex flex-col mt-[190px] items-center'>
-              <h1 className='text-3xl'>Innovation</h1>
-              <p className={`mt-[8px] font-thin text-[15px] leading-[17px] text-center px-10 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h1 className='text-3xl sm:-mt-10 glowBtn'>Innovation</h1>
+              <p className={`sm:my-[20px] sm:pb-7 font-thin text-[15px] leading-[17px] text-center px-10 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
 
-          <div className={`justify-center items-center text-white bg-block3 bg-no-repeat bg-cover bg-[center_top_-10px] h-[425px] w-[360px] cursor-pointer`}>
+          <div className={`justify-center items-center text-white bg-block3 bg-no-repeat bg-cover bg-[center_top_-10px] sm:mt-10 sm:h-1/2 sm:w-1/2 h-[380px] w-[330px] cursor-pointer`}>
             <div className='flex flex-col mt-[190px] items-center'>
-              <h1 className='text-3xl'>Worldbuilding</h1>
-              <p className={`mt-[8px] font-thin text-[15px] leading-[17px] text-center px-10 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h1 className='text-3xl sm:-mt-10 glowBtn'>Worldbuilding</h1>
+              <p className={`sm:my-[20px] sm:pb-7 font-thin text-[15px] leading-[17px] text-center px-10 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
 
-          <div className={`justify-center items-center text-white bg-block4 bg-no-repeat bg-cover bg-[center_top_-10px] h-[425px] w-[360px] cursor-pointer`}>
+          <div className={`justify-center items-center text-white bg-block4 bg-no-repeat bg-cover bg-[center_top_-10px] sm:mt-10 sm:h-1/2 sm:w-1/2 h-[380px] w-[330px] cursor-pointer`}>
             <div className='flex flex-col mt-[190px] items-center'>
-              <h1 className='text-3xl'>Suns Studio</h1>
-              <p className={`mt-[8px] font-thin text-[15px] leading-[17px] text-center px-10 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h1 className='text-3xl sm:-mt-10 glowBtn'>Suns Studio</h1>
+              <p className={`sm:my-[20px] sm:pb-7 font-thin text-[15px] leading-[17px] text-center px-10 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
 
