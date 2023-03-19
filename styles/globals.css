@@ -18,3 +18,8 @@
   text-decoration: underline;
   text-underline-offset: 30px;
 }
+
+html,body,root {
+max-width: 100%;
+overflow-x: hidden;
+}

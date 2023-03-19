@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-whole bg-no-repeat bg-cover bg-[center_top_0px]">
+    <div className="bg-mdwhole lg:bg-whole bg-no-repeat lg:bg-cover md:bg-[center_top_0px] bg-[center_top_-80px]">
       <div className="w-full h-[75px] fixed z-20">
         <Header />
       </div>

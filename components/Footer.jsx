@@ -12,13 +12,12 @@ import ButChat from './utils/ButChat'
 
 const Footer = () => {
   return (
-    // <div className='w-full h-full bg-footer bg-no-repeat bg-cover bg-[center_top_0px] relative'>
     <div className='w-full h-full bg-no-repeat bg-cover bg-[center_top_0px] relative'>
 
       <div className='flex flex-col justify-center items-center'>
         <h1 className='text-white text-7xl mt-[300px]'>Adventure Pickle Principles</h1>
 
-        <div className='flex flex-wrap mt-[70px] justify-between w-full px-[200px]'>
+        <div className='flex flex-wrap mt-[70px] justify-between w-full px-[20px] lg:px-[200px]'>
           <div className={`justify-center items-center text-white bg-block1 bg-no-repeat bg-cover bg-[center_top_-10px] h-[425px] w-[360px] cursor-pointer`}>
             <div className='flex flex-col mt-[190px] items-center'>
               <h1 className='text-3xl'>Narrative</h1>
@@ -49,33 +48,33 @@ const Footer = () => {
 
         </div>
 
-        <div className="w-full mt-[158px] object-fill">
-          <Image src={footerLine} alt="prolog" className="w-full h-[20px]" />
+        <div className="w-full lg:mt-[158px] object-fill">
+          <Image src={footerLine} alt="line" className="w-full h-[20px]" />
         </div>
 
-        <div className='flex flex-wrap mt-[60px] px-[300px] w-full justify-between mb-[160px]'>
+        <div className='flex flex-wrap mt-[60px] px-[50px] lg:px-[200px] 2xl:px-[300px] w-full justify-between mb-[50px] lg:mb-[160px]'>
           <div className='flex'>
-            <div className='flex flex-col mr-[150px]'>
-              <Image src={smallLogo} alt="prolog" className="w-[115px]] h-[70px]" />
+            <div className='flex flex-col mr-[20px] lg:mr-[100px] 2xl:mr-[150px]'>
+              <Image src={smallLogo} alt="line" className="w-[115px]] h-[70px]" />
               <span className={`text-white mt-5 opacity-60 cursor-pointer ${raleway.className}`}>Privacy policy</span>
               <span className={`text-white mt-3 opacity-60 cursor-pointer ${raleway.className}`}>Term of use</span>
               <span className={`text-white mt-3 opacity-60 cursor-pointer ${raleway.className}`}>Cookies</span>
             </div>
-            <Image src={lineOne} alt="prolog" className="w-[5px] h-[180px]" />
+            <Image src={lineOne} alt="line" className="w-[5px] h-[180px]" />
           </div>
 
           <div className='flex'>
-            <div className='flex flex-col mr-[150px]'>
+            <div className='flex flex-col mr-[20px] lg:mr-[100px] 2xl:mr-[150px]'>
               <span className={`text-white opacity-90 cursor-pointer ${raleway.className}`}>Home</span>
               <span className={`text-white mt-4 opacity-90 cursor-pointer ${raleway.className}`}>Community</span>
               <span className={`text-white mt-4 opacity-90 cursor-pointer ${raleway.className}`}>Our Token</span>
               <span className={`text-white mt-4 opacity-90 cursor-pointer ${raleway.className}`}>Partners</span>
               <span className={`text-white mt-4 opacity-90 cursor-pointer ${raleway.className}`}>FAQ</span>
             </div>
-            <Image src={lineOne} alt="prolog" className="w-[5px] h-[180px]" />
+            <Image src={lineOne} alt="line" className="w-[5px] h-[180px]" />
           </div>
           <div className='flex'>
-            <div className='flex flex-col mr-[150px]'>
+            <div className='flex flex-col md:mr-[20px] lg:mr-[100px] 2xl:mr-[150px]'>
               <h3 className={`text-white text-[16px] font-semibold opacity-90 ${raleway.className}`}>Contacts</h3>
               <span className={`text-white mt-3 opacity-90 ${raleway.className}`}>adventurepickle@gmail.com</span>
               <div className='flex mt-5 items-center'>
@@ -85,15 +84,12 @@ const Footer = () => {
                 <Image src={op} alt="opensea" className="w-[22px] h-[22px] cursor-pointer" />
               </div>
             </div>
-            <Image src={lineOne} alt="prolog" className="w-[5px] h-[180px]" />
+            <Image src={lineOne} alt="line" className="w-[5px] h-[180px] hidden md:flex" />
           </div>
           <div className='flex'>
-            <div className='flex flex-col'>
+            <div className='hidden md:flex flex-col'>
               <h3 className={`text-white text-[16px] font-semibold opacity-90 ${raleway.className}`}>Support</h3>
-              <ButChat text={"Open chat"} />
               <span className={`text-white mt-5 opacity-60 ${raleway.className}`}>More info</span>
-              <span className={`text-white mt-5 opacity-60 w-full ${raleway.className}`}>If you have a question you can write</span>
-              <span className={`text-white -mt-2 opacity-60 w-full ${raleway.className}`}>to us or see some of <span className='underline text-[#008839] cursor-pointer'>our tutorials</span></span>
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ const Header = () => {
       <div className='bg-black opacity-20 h-[75px] w-full absolute -z-10' />
 
       <div className='flex w-full h-full justify-between items-center'>
-        <Link to="#" className='w-[75%] lg:w-[20%] font-medium text-3xl cursor-pointer pl-[40px] 2xl:pl-[60px]'>Adventure Pickle</Link>
+        <Link to="#" className='w-[75%] lg:w-[20%] font-medium text-5xl lg:text-3xl cursor-pointer pl-[40px] 2xl:pl-[60px]'>Adventure Pickle</Link>
         <div className='lg:hidden w-[25%] flex justify-end mr-[40px]'>
           <Image
             src={burger}
