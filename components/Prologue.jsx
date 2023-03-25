@@ -26,7 +26,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('right', 'tween', 0.3, 0.5)}
           className='hidden lg:hidden md:flex top-40 -left-40 absolute'
         >
@@ -40,7 +40,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.4, 0.5)}
           className='hidden lg:hidden md:flex absolute right-0 top-40'
         >
@@ -54,7 +54,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.5, 0.5)}
           className='hidden lg:hidden md:flex absolute right-0 top-[880px]'
         >
@@ -69,7 +69,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('right', 'tween', 0.3, 0.5)}
           className='hidden 2xl:hidden lg:flex top-40 absolute'
         >
@@ -83,7 +83,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.4, 0.5)}
           className='hidden 2xl:hidden lg:flex absolute right-0 top-40'
         >
@@ -97,14 +97,14 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.5, 0.5)}
-          className='hidden 2xl:hidden lg:flex absolute right-0 top-[670px]'
+          className='hidden 2xl:hidden lg:flex absolute right-0 top-[720px]'
         >
           <Image
             src={polo3}
             alt="prolog"
-            height={850}
+            height={600}
           />
         </motion.div>
 
@@ -112,7 +112,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('right', 'tween', 0.3, 0.5)}
           className='hidden 2xl:flex absolute'
         >
@@ -126,7 +126,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.4, 0.5)}
           className='hidden 2xl:flex absolute right-0 top-40'
         >
@@ -140,7 +140,7 @@ const Prologue = () => {
         <motion.div
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.5, 0.5)}
           className='hidden 2xl:flex absolute right-0 top-[600px]'
         >
@@ -151,14 +151,14 @@ const Prologue = () => {
           />
         </motion.div>
 
-        <div className='flex flex-col items-center lg:mb-[650px] md:mb-[600px]'>
-          <div className='text-white text-[64px]'>
+        <div className='flex flex-col items-center lg:mb-[0px] md:mb-[600px]'>
+          <div className='text-white text-[64px] xl:-mt-6'>
             Prologue
           </div>
-          <p className={`text-white sm:text-lg w-[80%] md:w-70% lg:w-60% text-[14px] leading-[19px] text-center z-20 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+          <p className={`text-white sm:text-lg w-[80%] md:w-70% lg:w-60% lg:text-[14px] leading-[19px] xl:text-sm 2xl:text-xl 2xl:font-thin text-center z-20 ${raleway.className}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
           </p>
-          <p className={`text-white w-[80%] md:w-70% lg:w-60% text-[14px] leading-[19px] text-center z-20 ${raleway.className}`}>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-          <Button classes={'mt-[35px] cursor-pointer z-20 glowBtn'} text={'Read more'} />
+          <p className={`text-white w-[80%] md:w-70% lg:w-60% lg:text-[14px] leading-[19px] xl:text-sm  2xl:text-xl 2xl:font-thin text-center z-20 ${raleway.className}`}>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+          <Button classes={'xs:mt-[100px] xs:my-[200px] sm:mt-[50px] lg:mb-[400px] xl:mb-[0px] lg:mt-[20px] 2xl:mt-[35px] 2xl:mb-[400px] cursor-pointer z-20 glowBtn'} text={'Read more'} />
         </div>
       </div>
     </div >

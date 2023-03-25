@@ -1,17 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 
 .glow:hover {
-  text-shadow: 0 0 10px #67C307,
-  0 0 40px #67C307,
-  0 0 60px #67C307,
-  0 0 100px #67C307,
-  0 0 140px #67C307,
-  0 0 240px #67C307,
-  0 0 300px #67C307;
+  text-shadow: 0 0 10px #67c307, 0 0 40px #67c307, 0 0 60px #67c307,
+    0 0 100px #67c307, 0 0 140px #67c307, 0 0 240px #67c307, 0 0 300px #67c307;
 }
 
 .glow:active {
@@ -20,19 +15,16 @@
 }
 
 .glowBtn:hover {
-  text-shadow: 0 0 10px #67C307,
-  0 0 40px #67C307,
-  0 0 60px #67C307,
-  0 0 100px #67C307,
-  0 0 140px #67C307,
-  0 0 240px #67C307,
-  0 0 300px #67C307;
+  text-shadow: 0 0 10px #67c307, 0 0 40px #67c307, 0 0 60px #67c307,
+    0 0 100px #67c307, 0 0 140px #67c307, 0 0 240px #67c307, 0 0 300px #67c307;
 }
 
 .glowBtn:active {
 }
 
-html,body,root {
-max-width: 100%;
-overflow-x: hidden;
+html,
+body,
+root, head {
+  max-width: 100%;
+  overflow-x: hidden;
 }

@@ -10,11 +10,14 @@ module.exports = {
   ],
   theme: {
     screens: {
+      'xs': '350px',
+      's': '495px',
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1536px',
+      '2k': '1536px',
     },
     borderWidth: {
       '0': '0.5px',
