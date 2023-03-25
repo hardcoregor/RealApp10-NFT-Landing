@@ -16,12 +16,12 @@ const Cards = () => {
             <h2 className={`mt-[22px] mb-[34px] font-semibold lg:absolute lg:w-full lg:text-center lg:-top-[250px] xl:text-left xl:w-[38%] xl:-top-[910px] 2xl:text-xl 2xl:static 2xl:w-full 2xl:-mt-[50px] ${raleway.className}`}>Theory of Heinrich Altshuler — always start planning with the ideal end result</h2>
             <p className={`lg:hidden xl:flex font-thin lg:-mt-[50px] lg:w-[50%] xl:absolute xl:-top-[750px] xl:w-[35%] 2xl:static 2xl:text-lg 2xl:w-[130%] 2xl:pt-14 ${raleway.className}`}>The Pickles in our project have a unique comic style that emphasizes their bright personality. They are made with author's handwriting and bright colors, which allows them to stand out among other characters in our universe.</p>
 
-            <p className={`lg:hidden xl:flex font-thin ${raleway.className} mt-6 hidden xs:flex sm:hidden lg:flex lg:w-[50%] xl:w-[35%] xl:absolute xl:-top-[505px] 2xl:static 2xl:text-lg 2xl:w-[130%]`}>A talented artist Dnezdy works on the design of the pickles, and his creative approach allows each pickle to have its own unique style and character. This makes our cucumbers not only recognizable, but also as expressive as possible. We are sure that the unique style of the pickles will emphasize their individuality and help us create a truly memorable and high-quality product.</p>
+            <p className={`lg:hidden xl:flex font-thin ${raleway.className} mt-6 hidden xs:flex sm:hidden lg:flex lg:w-[50%] xl:w-[35%] xl:absolute xl:-top-[705px] 2xl:static 2xl:text-lg 2xl:w-[130%]`}>A talented artist Dnezdy works on the design of the pickles, and his creative approach allows each pickle to have its own unique style and character. This makes our cucumbers not only recognizable, but also as expressive as possible. We are sure that the unique style of the pickles will emphasize their individuality and help us create a truly memorable and high-quality product.</p>
 
             {/* LG */}
-            <p className={`font-thin lg:absolute lg:w-[40%] lg:-top-[120px] lg:ml-16 lg:flex xl:hidden hidden  ${raleway.className}`}>The Pickles in our project have a unique comic style that emphasizes their bright personality. They are made with author's handwriting and bright colors, which allows them to stand out among other characters in our universe.</p>
+            <p className={`font-thin lg:absolute lg:-top-[140px] lg:w-[90%] lg:text-xl lg:ml-16 lg:flex xl:hidden hidden  ${raleway.className}`}>The Pickles in our project have a unique comic style that emphasizes their bright personality. They are made with author's handwriting and bright colors, which allows them to stand out among other characters in our universe.</p>
 
-            <p className={`font-thin lg:absolute lg:w-[40%] lg:top-[250px] lg:ml-16 lg:flex xl:hidden hidden  ${raleway.className}`}>A talented artist Dnezdy works on the design of the pickles, and his creative approach allows each pickle to have its own unique style and character. This makes our cucumbers not only recognizable, but also as expressive as possible. We are sure that the unique style of the pickles will emphasize their individuality and help us create a truly memorable and high-quality product.</p>
+            <p className={`font-thin lg:absolute lg:w-[90%] lg:-top-[40px] lg:text-xl lg:ml-16 lg:flex xl:hidden hidden  ${raleway.className}`}>A talented artist Dnezdy works on the design of the pickles, and his creative approach allows each pickle to have its own unique style and character. This makes our cucumbers not only recognizable, but also as expressive as possible. We are sure that the unique style of the pickles will emphasize their individuality and help us create a truly memorable and high-quality product.</p>
             {/* LG */}
 
           </div>
@@ -61,11 +61,11 @@ const Cards = () => {
         </div>
 
         {/* LG */}
-        <div className='hidden lg:flex lg:-mt-[700px] xl:hidden 2xl:hidden'>
+        <div className='hidden lg:flex lg:absolute lg:w-full lg:justify-center lg:-mt-[300px] xl:hidden 2xl:hidden'>
           <Image
             src={cards}
             alt="cards"
-            height={1050}
+            height={750}
             style={{ objectFit: "contain" }}
             className=""
           />
