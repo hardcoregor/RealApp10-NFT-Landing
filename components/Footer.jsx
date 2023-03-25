@@ -57,7 +57,7 @@ const Footer = () => {
 
         <div className='flex flex-wrap mt-[60px] px-[50px] xs:px-4 lg:px-[50px] 2xl:px-[300px] w-full justify-between mb-[50px] lg:mb-[160px]'>
           <div className='flex'>
-            <div className='flex flex-col mr-[20px] xs:mr-[10px] sm:mr-[20px] lg:mr-[100px] 2xl:mr-[150px]'>
+            <div className='flex flex-col mr-[20px] xs:mr-[10px] sm:mr-[20px] lg:mr-[100px] 2xl:mr-[150px] 2xl:-ml-[100px]'>
               <Image src={smallLogo} alt="line" className="w-[115px]] h-[70px]" />
               <span className={`text-white mt-5 opacity-60 cursor-pointer ${raleway.className}`}>Privacy policy</span>
               <span className={`text-white mt-3 opacity-60 cursor-pointer ${raleway.className}`}>Term of use</span>
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
 
           <div className='flex'>
-            <div className='flex flex-col mr-[20px] xs:mr-[10px] sm:mr-[20px] lg:mr-[100px] 2xl:mr-[150px]'>
+            <div className='flex flex-col mr-[20px] xs:mr-[10px] sm:mr-[20px] lg:mr-[100px] 2xl:mr-[150px] 2xl:-ml-[100px]'>
               <span className={`text-white opacity-90 cursor-pointer ${raleway.className}`}>Home</span>
               <span className={`text-white mt-4 opacity-90 cursor-pointer ${raleway.className}`}>Community</span>
               <span className={`text-white mt-4 opacity-90 cursor-pointer ${raleway.className}`}>Our Token</span>
@@ -86,7 +86,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='flex xs:mt-4 xs:items-center xs:justify-center xs:w-full md:w-[25%] md:items-start md:mt-0'>
-            <div className='flex flex-col md:mr-[20px] lg:mr-[100px] 2xl:mr-[150px]'>
+            <div className='flex flex-col md:mr-[20px] lg:mr-[100px] 2xl:mr-[150px] 2xl:-ml-[100px]'>
               <h3 className={`text-white text-[16px] font-semibold opacity-90 xs:text-center md:text-left ${raleway.className}`}>Contacts</h3>
               <span className={`text-white mt-3 opacity-90 ${raleway.className}`}>adventurepickle@gmail.com</span>
               <div className='flex mt-5 items-center xs:justify-center md:justify-start'>
@@ -99,7 +99,7 @@ const Footer = () => {
             <Image src={lineOne} alt="line" className="w-[5px] h-[180px] hidden md:flex" />
           </div>
           <div className='flex'>
-            <div className='hidden md:flex flex-col'>
+            <div className='hidden md:flex flex-col 2xl:-ml-[100px]'>
               <h3 className={`text-white text-[16px] font-semibold opacity-90 ${raleway.className}`}>Support</h3>
               <span className={`text-white mt-5 opacity-60 ${raleway.className}`}>More info</span>
             </div>

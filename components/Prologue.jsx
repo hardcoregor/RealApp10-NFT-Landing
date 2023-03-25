@@ -142,7 +142,7 @@ const Prologue = () => {
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.5, 0.5)}
-          className='hidden 2xl:flex absolute right-0 top-[600px]'
+          className='hidden 2xl:flex absolute right-0 top-[700px]'
         >
           <Image
             src={polo3}

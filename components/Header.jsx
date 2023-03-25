@@ -33,23 +33,29 @@ const Header = () => {
           <Link to="background" spy={true} smoot={true} offset={-170} duration={5000} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>Background</Link>
           <Link to="collection" spy={true} smoot={true} offset={0} duration={5000} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>Collection</Link>
           <Link to="project" spy={true} smoot={true} offset={0} duration={5000} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>Project</Link>
-          <Link to="/" spy={true} smoot={true} offset={50} duration={500} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>Soon...</Link>
+          <a href='https://frank-29.gitbook.io/pickleadventure/' rel="noopener noreferrer" className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>
+            Whitepaper
+          </a>
           <Link to="/" spy={true} smoot={true} offset={50} duration={500} className='hidden lg:flex h-full  cursor-pointer glow'>Comics</Link>
         </div>
         <div className='hidden 2xl:flex pr-[60px]'>
+        <a href="https://twitter.com/PickleAdvNFT">
           <Image
             src={tw}
             alt="discord"
             className="mr-[46px] cursor-pointer"
             style={{ objectFit: "contain" }}
           />
-          <Image
-            src={disc}
-            alt="discord"
-            height={32}
-            className="mr-[46px] cursor-pointer"
-            style={{ objectFit: "contain" }}
-          />
+          </a>
+          <a href="https://discord.gg/m3VuMRjEsW">
+            <Image
+              src={disc}
+              alt="discord"
+              height={32}
+              className="mr-[46px] cursor-pointer"
+              style={{ objectFit: "contain" }}
+            />
+          </a>
           <Image
             src={play}
             className=" cursor-pointer"
