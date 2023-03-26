@@ -30,7 +30,11 @@ module.exports = {
       backgroundImage: {
         'oneOne': "url('../assets/quest/1.1/1.1.png')",
         'twoOne': "url('../assets/quest/1.1/2.1.png')",
+        'twoThree': "url('../assets/quest/1.1/2.3.png')",
         'threeFour': "url('../assets/quest/1.1/3.4.png')",
+        'threeFive': "url('../assets/quest/1.1/3.5.jpg')",
+        'threeSix': "url('../assets/quest/1.1/3.6.png')",
+        'fiveOne': "url('../assets/quest/1.1/5.1.png')",
         'start': "url('../assets/quest/start.jpg')",
         'blur': "url('../assets/addons/blur.svg')",
         'prologue': "url('../assets/heads.png')",

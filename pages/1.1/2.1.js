@@ -71,6 +71,7 @@ const twoOne = () => {
                 style={{ objectFit: "contain" }}
               />
             </div>
+            <Link href="/1.1/3.5">
             <p
               className={`absolute ${raleway.className} top-0 flex justify-center w-full mt-[2%] text-2xl xl:mt-[3%] xl:text-2xl glowBtn select-none`}
             >
@@ -79,6 +80,7 @@ const twoOne = () => {
                 <span className="font-medium w-full ml-4">Run away</span>
               </span>
             </p>
+            </Link>
           </div>
         </div>
 
@@ -100,6 +102,7 @@ const twoOne = () => {
                 style={{ objectFit: "contain" }}
               />
             </div>
+            <Link href="/1.1/3.6">
             <p
               className={`absolute ${raleway.className} top-0 flex justify-center w-full mt-[2%] text-2xl xl:mt-[3%] xl:text-2xl glowBtn select-none`}
             >
@@ -110,6 +113,7 @@ const twoOne = () => {
                 </span>
               </span>
             </p>
+            </Link>
           </div>
         </div>
       </div>
