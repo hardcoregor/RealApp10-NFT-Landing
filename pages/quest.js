@@ -7,7 +7,7 @@ import logo from "../assets/quest/logo.png";
 
 const quest = () => {
   return (
-    <div className="bg-start bg-no-repeat lg:bg-cover bg-[center_top_0px] w-screen h-screen">
+    <div className="bg-start bg-[length:100%_100%] bg-no-repeat bg-[center_top_0px] w-screen h-screen">
       <div className="flex w-full justify-end pt-[50px] pr-[50px]">
         <Link href="/">
           <div className="cursor-pointer text-center">
@@ -22,13 +22,15 @@ const quest = () => {
       </div>
 
       <div className="w-full flex justify-center mt-[30px]">
-        <Image
-          src={logo}
-          alt="logo"
-          height={410}
-          className="cursor-pointer text-center"
-          style={{ objectFit: "contain" }}
-        />
+        <Link href="/questStart">
+          <Image
+            src={logo}
+            alt="logo"
+            height={410}
+            className="cursor-pointer text-center"
+            style={{ objectFit: "contain" }}
+          />
+        </Link>
       </div>
       <div className="w-full flex justify-center">
         <p
