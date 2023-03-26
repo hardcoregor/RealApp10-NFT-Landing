@@ -2,6 +2,8 @@ import { raleway } from "@/utils/fonts";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+
+import exit from "../assets/quest/exit.png";
 import first from "../assets/quest/1.png";
 import two from "../assets/quest/2.png";
 import three from "../assets/quest/3.png";
@@ -20,7 +22,19 @@ const questStart = () => {
 
   return (
     <div className="bg-start bg-cover bg-no-repeat bg-[center_top_0px] w-screen h-screen">
-      <div className="flex w-full justify-center pt-[50%] sm:pt-[30%] lg:pt-[20%] xl:pt-[15%]">
+      <div className="flex w-full justify-end pt-[50px] pr-[50px]">
+        <Link href="/">
+          <div className="cursor-pointer text-center">
+            <Image
+              src={exit}
+              alt="exit"
+              height={44}
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+        </Link>
+      </div>
+      <div className="flex w-full justify-center pt-[47%] sm:pt-[27%] lg:pt-[17%] xl:pt-[12%]">
         <h3
           className={`text-white ${raleway.className} font-medium text-[30px] md:text-[45px] lg:text-[60px] leading-tight w-1/2 text-center`}
         >
@@ -48,7 +62,9 @@ const questStart = () => {
                   style={{ objectFit: "contain" }}
                 />
               </div>
-              <p className={`${raleway.className} font-medium absolute top-0 flex justify-center w-full mt-[2%] text-2xl xl:mt-[3%] xl:text-3xl glow`}>
+              <p
+                className={`${raleway.className} font-medium absolute top-0 flex justify-center w-full mt-[2%] text-2xl xl:mt-[3%] xl:text-3xl glow`}
+              >
                 1. Trash can in the backyard
               </p>
             </div>
@@ -57,7 +73,7 @@ const questStart = () => {
         <div className="mt-[10%] w-full justify-center flex">
           <div className="cursor-pointer text-center relative">
             <div className="flex xl:hidden">
-            <Image
+              <Image
                 src={two}
                 alt="exit"
                 height={60}
@@ -81,29 +97,30 @@ const questStart = () => {
           </div>
         </div>
         <div className="mt-[10%] w-full justify-center flex">
-
-            <div className="cursor-pointer text-center relative">
-              <div className="flex xl:hidden">
-                <Image
-                  src={three}
-                  alt="exit"
-                  height={60}
-                  style={{ objectFit: "contain" }}
-                />
-              </div>
-              <div className="hidden xl:flex">
-                <Image
-                  src={three}
-                  alt="exit"
-                  height={65}
-                  style={{ objectFit: "contain" }}
-                />
-              </div>
-              <p onClick={() => changeThird("Coming soon..")} className={`${raleway.className} font-medium absolute top-0 flex justify-center w-full mt-[2%] text-2xl xl:mt-[3%] xl:text-3xl glow`}>
-                {third}
-              </p>
+          <div className="cursor-pointer text-center relative">
+            <div className="flex xl:hidden">
+              <Image
+                src={three}
+                alt="exit"
+                height={60}
+                style={{ objectFit: "contain" }}
+              />
             </div>
-
+            <div className="hidden xl:flex">
+              <Image
+                src={three}
+                alt="exit"
+                height={65}
+                style={{ objectFit: "contain" }}
+              />
+            </div>
+            <p
+              onClick={() => changeThird("Coming soon..")}
+              className={`${raleway.className} font-medium absolute top-0 flex justify-center w-full mt-[2%] text-2xl xl:mt-[3%] xl:text-3xl glow`}
+            >
+              {third}
+            </p>
+          </div>
         </div>
       </div>
     </div>

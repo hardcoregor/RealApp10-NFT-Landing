@@ -7,11 +7,52 @@ import first from "../../assets/quest/1.png";
 import second from "../../assets/quest/2.png";
 import third from "../../assets/quest/3.png";
 
+import exit from "../../assets/quest/exit.png";
+import snap from "../../assets/quest/snap.png";
+import logo from "../../assets/quest/logo.png";
+
 const twoOne = () => {
   return (
     <div className="relative">
       <div className="absolute inset-0 bg-black opacity-100"></div>
       <div className="relative bg-twoOne md:bg-cover xl:bg-contain bg-no-repeat bg-[center_top_0px] w-screen h-screen">
+        <div className="flex w-full justify-between pt-[50px] px-[50px]">
+          <div className="flex">
+            <div className="-mt-[50px]">
+              <Image
+                src={logo}
+                alt="logo"
+                height={130}
+                className="cursor-pointer text-center"
+                style={{ objectFit: "contain" }}
+              />
+            </div>
+            <a
+              href="https://twitter.com/PickleAdvNFT"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer text-center"
+            >
+              <Image
+                src={snap}
+                alt="exit"
+                height={44}
+                style={{ objectFit: "contain" }}
+              />
+            </a>
+          </div>
+          <Link href="/">
+            <div className="cursor-pointer text-center">
+              <Image
+                src={exit}
+                alt="exit"
+                height={44}
+                style={{ objectFit: "contain" }}
+              />
+            </div>
+          </Link>
+        </div>
+
         <div className="flex w-full justify-center pt-[50%] sm:pt-[15%] md:pt-[20%] lg:pt-[10%] xl:pt-[15%]">
           <h3
             className={`text-white ${raleway.className} font-medium text-[30px] sm:w-[90%] md:text-[45px] lg:text-[60px] leading-tight w-1/2 md:w-[90%] xl:w-[70%] 2xl:text-[50px] 2xl:w-[50%] text-center`}
