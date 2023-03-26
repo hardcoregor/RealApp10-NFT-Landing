@@ -12,6 +12,14 @@ import snap from "../../assets/quest/snap.png";
 import logo from "../../assets/quest/logo.png";
 
 const twoOne = () => {
+  const handleOpen = (link) => {
+    window.open(link);
+  };
+
+  const captureAndTweet = async () => {
+    const tweetText = encodeURIComponent("Share my quest walkthrough. Pickle quests avaliable now: @PickleAdvNFT");
+    handleOpen(`https://twitter.com/intent/tweet?text=${tweetText}`);
+  };
   return (
     <div className="relative">
       <div className="absolute inset-0 bg-black opacity-100"></div>
@@ -27,19 +35,14 @@ const twoOne = () => {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <a
-              href="https://twitter.com/PickleAdvNFT"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer text-center"
-            >
+            <div onClick={captureAndTweet} className="cursor-pointer">
               <Image
                 src={snap}
                 alt="exit"
                 height={44}
                 style={{ objectFit: "contain" }}
               />
-            </a>
+            </div>
           </div>
           <Link href="/">
             <div className="cursor-pointer text-center">
