@@ -6,6 +6,7 @@ import burger from '../assets/addons/menu.png'
 import play from '../assets/socials/play.png'
 import { Link } from 'react-scroll'
 import menu from '../assets/addons/menu.png'
+import Router from 'next/router';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -14,6 +15,12 @@ const Header = () => {
     setOpen(!open);
     console.log(open)
   }
+
+  function handleClick() {
+    Router.push('/quest');
+  }
+
+
   return (
     <div className='h-[75px] justify-center items-center text-white border-b-[1px] border-white border-opacity-50 z-50'>
       <div className='bg-black opacity-20 h-[75px] w-full absolute -z-10' />
@@ -39,13 +46,13 @@ const Header = () => {
           <Link to="/" spy={true} smoot={true} offset={50} duration={500} className='hidden lg:flex h-full  cursor-pointer glow'>Comics</Link>
         </div>
         <div className='hidden 2xl:flex pr-[60px]'>
-        <a href="https://twitter.com/PickleAdvNFT">
-          <Image
-            src={tw}
-            alt="discord"
-            className="mr-[46px] cursor-pointer"
-            style={{ objectFit: "contain" }}
-          />
+          <a href="https://twitter.com/PickleAdvNFT">
+            <Image
+              src={tw}
+              alt="discord"
+              className="mr-[46px] cursor-pointer"
+              style={{ objectFit: "contain" }}
+            />
           </a>
           <a href="https://discord.gg/m3VuMRjEsW">
             <Image
@@ -56,11 +63,13 @@ const Header = () => {
               style={{ objectFit: "contain" }}
             />
           </a>
-          <Image
-            src={play}
-            className=" cursor-pointer"
-            style={{ objectFit: "contain" }}
-          />
+          <div onClick={handleClick}>
+            <Image
+              src={play}
+              className="cursor-pointer"
+              style={{ objectFit: "contain" }}
+            />
+          </div>
         </div>
         <div className='hidden lg:flex 2xl:hidden pr-[40px]'>
           <Image

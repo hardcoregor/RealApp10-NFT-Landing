@@ -28,6 +28,7 @@ module.exports = {
         '60%': '60%',
       },
       backgroundImage: {
+        'start': "url('../assets/quest/start.jpg')",
         'blur': "url('../assets/addons/blur.svg')",
         'prologue': "url('../assets/heads.png')",
         'whole': "url('../assets/Whole.jpg')",
