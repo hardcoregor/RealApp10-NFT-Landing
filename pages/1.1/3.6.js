@@ -56,7 +56,7 @@ const threeFour = () => {
         </div>
         <div className="flex w-full justify-center pt-[50%] sm:pt-[30%] md:pt-[20%] lg:pt-[10%] xl:pt-[10%] relative">
           <h3
-            className={`text-white ${raleway.className} font-medium text-[30px] md:text-[45px] lg:text-[60px] leading-tight w-1/2 md:w-[90%] lg:w-[80%] xl:w-[50%] text-center select-none`}
+            className={`text-white ${raleway.className} font-medium text-[30px] md:text-[45px] lg:text-[50px] leading-tight w-1/2 md:w-[90%] lg:w-[80%] xl:w-[50%] text-center select-none`}
           >
             You find a toothpick in the garbage and manage to stab the rat at the last moment. While the rat is writhing in pain, you run away from the dumpster
           </h3>

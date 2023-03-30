@@ -38,14 +38,14 @@ const Footer = () => {
 
           <div className={`justify-center items-center text-white bg-block3 bg-no-repeat bg-cover bg-[center_top_-10px] sm:mt-10 xs:w-[100%] s:w-[90%] sm:h-1/2 sm:w-[47%] lg:h-[620px] lg:w-[47%] xl:h-[80%] xl:w-[34%] 2xl:h-[425px] 2xl:w-[360px] xl:mt-0 cursor-pointer`}>
             <div className='flex flex-col mt-[190px] items-center'>
-              <h1 className='text-3xl sm:-mt-10 s:mt-20 md:mt-4 lg:mt-[120px] xl:text-4xl xl:mt-[120px] lg:text-5xl 2xl:mt-[8px] glowBtn'>Worldbuilding</h1>
+              <h1 className='text-3xl sm:-mt-10 s:mt-20 md:mt-4 lg:mt-[120px] xl:text-4xl xl:mt-[120px] lg:text-5xl 2xl:mt-[8px] glowBtn'>Style</h1>
               <p className={`xs:mb-14 sm:my-[20px] sm:pb-7 md:pb-20 lg:text-xl lg:w-[80%] lg:my-[20px] xl:w-full xl:text-sm font-thin text-[15px] leading-[17px] text-center px-10 ${raleway.className}`}>The unique style of the project and the constant development of the ecosystem.</p>
             </div>
           </div>
 
           <div className={`justify-center items-center text-white bg-block4 bg-no-repeat bg-cover bg-[center_top_-10px] sm:mt-10 xs:w-[100%] s:w-[90%] sm:h-1/2 sm:w-[47%] lg:h-[620px] lg:w-[47%] xl:h-[80%] xl:w-[34%] 2xl:h-[425px] 2xl:w-[360px] xl:mt-0 cursor-pointer`}>
             <div className='flex flex-col mt-[190px] items-center'>
-              <h1 className='text-3xl sm:-mt-10 s:mt-20 md:mt-4 lg:mt-[120px] xl:text-4xl xl:mt-[120px] lg:text-5xl 2xl:mt-[8px] glowBtn'>Suns Studio</h1>
+              <h1 className='text-3xl sm:-mt-10 s:mt-20 md:mt-4 lg:mt-[120px] xl:text-4xl xl:mt-[120px] lg:text-5xl 2xl:mt-[8px] glowBtn'>Integrations</h1>
               <p className={`xs:mb-14 sm:my-[20px] sm:pb-7 md:pb-20 lg:text-xl lg:w-[80%] lg:my-[20px] xl:w-full xl:text-sm font-thin text-[15px] leading-[17px] text-center px-10 ${raleway.className}`}>Integration of AI to scale the universe.</p>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='flex xs:mt-4 xs:items-center xs:justify-center xs:w-full md:w-[25%] md:items-start md:mt-0'>
-            <div className='flex flex-col md:mr-[20px] lg:mr-[100px] 2xl:mr-[150px] 2xl:-ml-[100px]'>
+            <div className='flex flex-col 2xl:-ml-[100px]'>
               <h3 className={`text-white text-[16px] font-semibold opacity-90 xs:text-center md:text-left ${raleway.className}`}>Contacts</h3>
               <span className={`text-white mt-3 opacity-90 ${raleway.className}`}>adventurepickle@gmail.com</span>
               <div className='flex mt-5 items-center xs:justify-center md:justify-start'>
@@ -95,13 +95,6 @@ const Footer = () => {
                 <Image src={tg} alt="tg" className="w-[22px] h-[22px] mr-5 cursor-pointer" />
                 <Image src={op} alt="opensea" className="w-[22px] h-[22px] cursor-pointer" />
               </div>
-            </div>
-            <Image src={lineOne} alt="line" className="w-[5px] h-[180px] hidden md:flex" />
-          </div>
-          <div className='flex'>
-            <div className='hidden md:flex flex-col 2xl:-ml-[100px]'>
-              <h3 className={`text-white text-[16px] font-semibold opacity-90 ${raleway.className}`}>Support</h3>
-              <span className={`text-white mt-5 opacity-60 ${raleway.className}`}>More info</span>
             </div>
           </div>
         </div>

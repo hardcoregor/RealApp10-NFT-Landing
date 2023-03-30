@@ -72,26 +72,32 @@ const Header = () => {
           </div>
         </div>
         <div className='hidden lg:flex 2xl:hidden pr-[40px] items-center'>
-          <Image
-            src={tw}
-            alt="discord"
-            // height={35}
-            className="mr-[23px] cursor-pointer"
-            style={{ objectFit: "contain" }}
-          />
-          <Image
-            src={disc}
-            alt="discord"
-            height={35}
-            className="mr-[23px] cursor-pointer"
-            style={{ objectFit: "contain" }}
-          />
-          <Image
-            src={play}
-            // height={55}
-            className=" cursor-pointer"
-            style={{ objectFit: "contain" }}
-          />
+          <a href="https://twitter.com/PickleAdvNFT">
+            <Image
+              src={tw}
+              alt="discord"
+              // height={35}
+              className="mr-[23px] cursor-pointer"
+              style={{ objectFit: "contain" }}
+            />
+          </a>
+          <a href="https://discord.gg/m3VuMRjEsW">
+            <Image
+              src={disc}
+              alt="discord"
+              height={35}
+              className="mr-[23px] cursor-pointer"
+              style={{ objectFit: "contain" }}
+            />
+          </a>
+          <div onClick={handleClick}>
+            <Image
+              src={play}
+              // height={55}
+              className=" cursor-pointer"
+              style={{ objectFit: "contain" }}
+            />
+          </div>
         </div>
       </div>
     </div>

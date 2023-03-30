@@ -12,16 +12,16 @@ const Cards = () => {
       <div className='flex flex-col lg:flex-row lg:mt-[245px] xl:pt-[270px] 2xl:pt-[0px]'>
         <div className='w-full 2xl:w-[40%] '>
           <div className='flex flex-col text-white mt-[50px] i14:mt-[170px] sm:mt-[100px] md:mt-0 lg:mt-0 lg:my-14 xl:ml-[80px] 2xl:ml-[230px] text-center lg:text-left'>
-            <h1 className='text-7xl sm:mt-10 lg:absolute lg:-top-[350px] lg:offset-0 lg:w-full lg:text-center xl:text-left xl:-top-[1000px] 2xl:flex 2xl:absolute 2xl:pt-[0px] 2xl:w-[200%] 2xl:top-20'>A Collection Driven</h1>
-            <h2 className={`mt-[22px] mb-[34px] font-semibold lg:absolute lg:w-full lg:text-center lg:-top-[250px] xl:text-left xl:w-[38%] xl:-top-[910px] 2xl:text-xl 2xl:static 2xl:w-full 2xl:-mt-[50px] ${raleway.className}`}>Theory of Heinrich Altshuler — always start planning with the ideal end result</h2>
-            <p className={`lg:hidden xl:flex font-light lg:-mt-[50px] lg:w-[50%] xl:absolute xl:-top-[750px] xl:w-[35%] 2xl:static 2xl:text-lg 2xl:w-[130%] 2xl:pt-14 ${raleway.className}`}>The Pickles in our project have a unique comic style that emphasizes their bright personality. They are made with author's handwriting and bright colors, which allows them to stand out among other characters in our universe.</p>
+            <h1 className='text-7xl sm:mt-10 lg:absolute lg:-top-[300px] lg:offset-0 lg:w-full lg:text-center xl:text-left xl:-top-[950px] 2xl:flex 2xl:absolute 2xl:pt-[0px] 2xl:w-[200%] 2xl:top-20'>A Collection Driven</h1>
+            <h2 className={`mt-[22px] mb-[34px] font-semibold lg:absolute lg:w-full lg:text-center lg:-top-[200px] xl:text-left xl:w-[38%] xl:-top-[860px] 2xl:text-xl 2xl:static 2xl:w-full 2xl:-mt-[50px] ${raleway.className}`}>Theory of Heinrich Altshuler — always start planning with the ideal end result</h2>
+            <p className={`lg:hidden xl:flex font-light lg:-mt-[50px] lg:w-[50%] xl:absolute xl:-top-[700px] xl:w-[35%] 2xl:static 2xl:text-lg 2xl:w-[130%] 2xl:pt-14 ${raleway.className}`}>The Pickles in our project have a special comic style that emphasizes their bright personality. They are made with author's handwriting and bright colors, which allows them to stand out among other characters in our universe.</p>
 
-            <p className={`lg:hidden xl:flex font-light ${raleway.className} mt-6 hidden xs:flex sm:hidden lg:flex lg:w-[50%] xl:w-[35%] xl:absolute xl:-top-[705px] 2xl:static 2xl:text-lg 2xl:w-[130%]`}>A talented artist Dnezdy works on the design of the pickles, and his creative approach allows each pickle to have its own unique style and character. This makes our cucumbers not only recognizable, but also as expressive as possible. We are sure that the unique style of the pickles will emphasize their individuality and help us create a truly memorable and high-quality product.</p>
+            <p className={`lg:hidden xl:flex font-light ${raleway.className} mt-6 hidden xs:flex sm:hidden lg:flex lg:w-[50%] xl:w-[35%] xl:absolute xl:-top-[655px] 2xl:static 2xl:text-lg 2xl:w-[130%]`}>A talented artist named Dnezdy works on the design, and his creativity allows each pickle to have its own unique style and character. This makes them not only recognizable, but also as expressive as possible. We are confident that the creative style of the pickles will emphasize their personality and help us create a truly memorable and quality product.</p>
 
             {/* LG */}
-            <p className={`font-light lg:absolute lg:-top-[140px] lg:w-[90%] lg:text-xl lg:ml-16 lg:flex xl:hidden hidden  ${raleway.className}`}>The Pickles in our project have a unique comic style that emphasizes their bright personality. They are made with author's handwriting and bright colors, which allows them to stand out among other characters in our universe.</p>
+            <p className={`font-light lg:absolute lg:-top-[100px] lg:w-[90%] lg:text-xl lg:ml-16 lg:flex xl:hidden hidden  ${raleway.className}`}>The Pickles in our project have a special comic style that emphasizes their bright personality. They are made with author's handwriting and bright colors, which allows them to stand out among other characters in our universe.</p>
 
-            <p className={`font-light lg:absolute lg:w-[90%] lg:-top-[40px] lg:text-xl lg:ml-16 lg:flex xl:hidden hidden  ${raleway.className}`}>A talented artist Dnezdy works on the design of the pickles, and his creative approach allows each pickle to have its own unique style and character. This makes our cucumbers not only recognizable, but also as expressive as possible. We are sure that the unique style of the pickles will emphasize their individuality and help us create a truly memorable and high-quality product.</p>
+            <p className={`font-light lg:absolute lg:w-[90%] lg:-top-[0px] lg:text-xl lg:ml-16 lg:flex xl:hidden hidden  ${raleway.className}`}>A talented artist named Dnezdy works on the design, and his creativity allows each pickle to have its own unique style and character. This makes them not only recognizable, but also as expressive as possible. We are confident that the creative style of the pickles will emphasize their personality and help us create a truly memorable and quality product.</p>
             {/* LG */}
 
           </div>
@@ -72,7 +72,7 @@ const Cards = () => {
         </div>
 
         {/* XL */}
-        <div className='hidden xl:flex xl:absolute xl:-top-[970px] xl:right-0 2xl:hidden'>
+        <div className='hidden xl:flex xl:absolute xl:-top-[920px] xl:right-0 2xl:hidden'>
           <Image
             src={cards}
             alt="cards"
