@@ -45,7 +45,7 @@ const Header = () => {
           </a>
           <Link to="/" spy={true} smoot={true} offset={50} duration={500} className='hidden lg:flex h-full  cursor-pointer glow'>Comics</Link>
         </div>
-        <div className='hidden 2xl:flex pr-[60px]'>
+        <div className='hidden 2xl:flex pr-[60px] items-center'>
           <a href="https://twitter.com/PickleAdvNFT">
             <Image
               src={tw}
@@ -71,7 +71,7 @@ const Header = () => {
             />
           </div>
         </div>
-        <div className='hidden lg:flex 2xl:hidden pr-[40px]'>
+        <div className='hidden lg:flex 2xl:hidden pr-[40px] items-center'>
           <Image
             src={tw}
             alt="discord"
