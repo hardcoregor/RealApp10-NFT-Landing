@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <div className='h-[75px] justify-center items-center text-white border-b-[1px] border-white border-opacity-50 z-50'>
-      <div className='bg-black opacity-20 h-[75px] w-full absolute -z-10' />
+      <div className='bg-black opacity-50 h-[75px] w-full absolute -z-10' />
 
       <div className='flex w-full h-full justify-between items-center'>
         <Link to="#" className='w-[75%] xs:text-[40px] xs:w-full lg:w-[20%] font-medium text-5xl lg:text-3xl cursor-pointer pl-[40px] 2xl:pl-[60px] glow'>Adventure Pickle</Link>

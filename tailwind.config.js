@@ -45,6 +45,7 @@ module.exports = {
         'pickle': "url('../assets/pickle.jpg')",
         'footer': "url('../assets/footer.jpg')",
         'outline': "url('../assets/addons/buttonOutline.png')",
+        'blur': "url('../assets/addons/blur.png')",
         'butOut': "url('../assets/addons/butOut.png')",
         'block1': "url('../assets/blocks/block1.png')",
         'block2': "url('../assets/blocks/block2.png')",

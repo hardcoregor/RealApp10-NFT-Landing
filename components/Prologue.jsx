@@ -155,10 +155,15 @@ const Prologue = () => {
           <div className='text-white text-[64px] xl:-mt-6'>
             Prologue
           </div>
-          <p className={`text-white sm:text-lg w-[80%] md:w-70% lg:w-60% lg:text-[14px] leading-[19px] xl:text-sm 2xl:text-xl 2xl:font-thin text-center z-20 ${raleway.className}`}>Something unbelievable happened: the pickles that were supposed to be food came to life and gained consciousness! Each pickle has its own unique style, which helps them blend in with people. They wear different outfits and accessories to be inconspicuous, but sometimes their style becomes so flashy that it attracts the attention of others. Nevertheless, they do not stop trying and looking for new ways to integrate into human society.
+          <p className={`text-white font-light sm:text-lg w-[80%] md:w-70% lg:w-60% lg:text-[14px] leading-[19px] xl:text-sm 2xl:text-xl 2xl:font-light text-center z-20 ${raleway.className}`}>Something unbelievable happened: the pickles that were supposed to be food came to life and gained consciousness! Each pickle has its own unique style, which helps them blend in with people. They wear different outfits and accessories to be inconspicuous, but sometimes their style becomes so flashy that it attracts the attention of others. Nevertheless, they do not stop trying and looking for new ways to integrate into human society.
           </p>
-          <p className={`text-white w-[80%] md:w-70% lg:w-60% lg:text-[14px] leading-[19px] xl:text-sm  2xl:text-xl 2xl:font-thin text-center z-20 ${raleway.className}`}>Once on planet Earth, they began their adventure, the goal of which was to survive in extreme conditions and find each other. On their way there are various obstacles and difficulties that put the pickles in mortal danger! Will our heroes be able to overcome all the difficulties and save their lives, and perhaps the entire planet? You can find out all this by reading the main comic book "Pickle Adventure: Prolouge"</p>
-          <Button classes={'xs:mt-[100px] xs:my-[200px] sm:mt-[50px] lg:mb-[400px] xl:mb-[0px] lg:mt-[20px] 2xl:mt-[35px] 2xl:mb-[400px] cursor-pointer z-20 glowBtn'} text={'Read more'} />
+          <p className={`text-white font-light w-[80%] md:w-70% lg:w-60% lg:text-[14px] leading-[19px] xl:text-sm  2xl:text-xl 2xl:font-light text-center z-20 ${raleway.className}`}>Once on planet Earth, they began their adventure, the goal of which was to survive in extreme conditions and find each other. On their way there are various obstacles and difficulties that put the pickles in mortal danger! Will our heroes be able to overcome all the difficulties and save their lives, and perhaps the entire planet? You can find out all this by reading the main comic book "Pickle Adventure: Prolouge"</p>
+          <div className='relative'>
+            <div className='flex z-20'>
+              <Button classes={'xs:mt-[100px] xs:my-[200px] sm:mt-[50px] lg:mb-[400px] xl:mb-[0px] lg:mt-[20px] 2xl:mt-[35px] 2xl:mb-[400px] cursor-pointer z-20 glowBtn z-50'} text={'Read more'} />
+            </div>
+            <div class="absolute z-10 -top-0 -right-10 bg-blur bg-[center_top_-70px] blur-2xl rounded-full h-[30%] w-[150%]"></div>
+          </div>
         </div>
       </div>
     </div >
