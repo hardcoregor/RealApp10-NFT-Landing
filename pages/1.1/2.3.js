@@ -22,14 +22,15 @@ const threeFour = () => {
     <div className="relative">
       <div className="absolute inset-0 bg-black opacity-100"></div>
       <div className="relative bg-twoThree bg-cover lg:bg-contain bg-no-repeat bg-[center_top_0px] w-screen h-screen">
-        <div className="flex w-full justify-between pt-[50px] px-[50px]">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black" />
+        <div className="flex w-full justify-between pt-[50px] px-[50px] relative">
           <div className="flex">
             <div className="-mt-[50px]">
               <Image
                 src={logo}
                 alt="logo"
                 height={130}
-                className="cursor-pointer text-center"
+                className="text-center"
                 style={{ objectFit: "contain" }}
               />
             </div>
@@ -53,15 +54,16 @@ const threeFour = () => {
             </div>
           </Link>
         </div>
-        <div className="flex w-full justify-center pt-[50%] sm:pt-[30%] md:pt-[20%] lg:pt-[10%] xl:pt-[15%]">
+        <div className="flex w-full justify-center pt-[50%] sm:pt-[30%] md:pt-[20%] lg:pt-[10%] xl:pt-[10%] relative">
           <h3
-            className={`text-white ${raleway.className} font-medium text-[30px] md:text-[45px] lg:text-[60px] leading-tight w-1/2 md:w-[90%] lg:w-[80%] xl:w-[70%] 2xl:w-[50%] text-center select-none glowBtn`}
+            className={`text-white ${raleway.className} font-medium text-[30px] md:text-[45px] lg:text-[60px] leading-tight w-1/2 md:w-[90%] lg:w-[80%] xl:w-[70%] 2xl:w-[50%] text-center select-none`}
           >
-            A huge rat pounces on you and throws you out of a garbage can
+            You are near a garbage can and see two rats fighting furiously. At
+            some point a cat runs by and chases them away
           </h3>
         </div>
 
-        <div className="flex flex-col xl:flex-row xl:flex-wrap w-full text-center text-white justify-center mt-[10%] xl:mt-[5%] xl:px-[0px]">
+        <div className="flex flex-col xl:flex-row xl:flex-wrap w-full text-center text-white justify-center mt-[10%] xl:mt-[5%] xl:px-[0px] relative">
           <Link href="/1.1/5.1">
             <p className="text-5xl cursor-pointer glow">NEXT &gt;</p>
           </Link>

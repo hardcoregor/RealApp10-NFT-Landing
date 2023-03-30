@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 
 .glow:hover {
-  text-shadow: 0 0 10px #67c307, 0 0 40px #67c307, 0 0 60px #67c307,
+  text-shadow: 0 0 50px #67c307, 0 0 40px #67c307, 0 0 60px #67c307,
     0 0 100px #67c307, 0 0 140px #67c307, 0 0 240px #67c307, 0 0 300px #67c307;
 }
 
@@ -16,7 +16,8 @@
 
 .glowBtn:hover {
   text-shadow: 0 0 10px #67c307, 0 0 40px #67c307, 0 0 60px #67c307,
-    0 0 100px #67c307, 0 0 140px #67c307, 0 0 240px #67c307, 0 0 300px #67c307;
+    0 0 100px #67c307, 0 0 100px #67c307, 0 0 40px #67c307, 0 0 30px #67c307,
+    0 0 300px #67c307, 0 0 300px #67c307, 0 0 400px #67c307, 0 0 300px #67c307;
 }
 
 .glowBtn:active {
