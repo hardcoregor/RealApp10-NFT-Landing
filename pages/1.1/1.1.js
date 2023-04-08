@@ -23,7 +23,7 @@ const oneOne = () => {
 
       <div class="relative bg-oneOne bg-contain bg-no-repeat bg-[center_top_0px] h-screen">
         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"/>
-        <div className="flex w-full justify-between pt-[50px] px-[50px] relative">
+        <div className="flex w-full justify-between xs:pt-[30px] xs:px-[30px md:pt-[50px] md:px-[50px] relative">
           <div className="flex">
             <div className="-mt-[50px]">
               <Image

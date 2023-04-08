@@ -34,7 +34,7 @@ const questStart = () => {
           </div>
         </Link>
       </div>
-      <div className="flex w-full justify-center pt-[47%] sm:pt-[27%] md:pt-[20%] lg:pt-[17%] xl:pt-[12%]">
+      <div className="flex w-full justify-center pt-[47%] xs:pt-[10%] sm:pt-[27%] md:pt-[20%] lg:pt-[17%] xl:pt-[12%]">
         <h3
           className={`text-white ${raleway.className} font-medium text-[30px] md:text-[45px] lg:text-[60px] leading-tight w-1/2 text-center`}
         >

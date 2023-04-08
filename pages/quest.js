@@ -8,7 +8,7 @@ import logo from "../assets/quest/logo.png";
 const quest = () => {
   return (
     <div className="bg-start bg-cover bg-no-repeat bg-[center_top_0px] w-screen h-screen">
-      <div className="flex w-full justify-end pt-[50px] pr-[50px]">
+      <div className="flex w-full justify-end pt-[0px] pr-[50px]">
         <Link href="/">
           <div className="cursor-pointer text-center">
             <Image
@@ -21,7 +21,7 @@ const quest = () => {
         </Link>
       </div>
 
-      <div className="w-full flex justify-center mt-[30px]">
+      <div className="w-full flex justify-center mt-[0px]">
         <Link href="/questStart">
           <Image
             src={logo}
@@ -34,7 +34,7 @@ const quest = () => {
       </div>
       <div className="w-full flex justify-center">
         <p
-          className={`text-white ${raleway.className} font-bold text-[30px] lg:text-[60px] leading-tight w-1/2 text-center`}
+          className={`text-white ${raleway.className} font-bold text-[30px] lg:text-[60px] leading-tight w-1/2 text-center xs:w-full`}
         >
           Don’t forget that your choice will affect the course of the plot
         </p>

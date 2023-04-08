@@ -160,10 +160,12 @@ const Prologue = () => {
           <p className={`text-white font-light w-[80%] xs:text-left xs:mt-10 sm:mt-0 md:w-70% lg:w-60% lg:text-[14px] leading-[19px] xl:text-sm  2xl:text-xl 2xl:font-light text-center z-20 ${raleway.className}`}>Once on planet Earth, they began their adventure, the goal of which was to survive in extreme conditions and find each other. On their way there are various obstacles and difficulties that put the pickles in mortal danger! Will our heroes be able to overcome all the difficulties and save their lives, and perhaps the entire planet? You can find out all this by reading the main comic book "Pickle Adventure: Prolouge"</p>
           <div className='relative'>
             <div className='flex z-20'>
-              <Button classes={'xs:mt-6 xs:-ml-24 sm:mt-[100px] xs:my-[140px] sm:mt-[50px] lg:mb-[400px] xl:mb-[0px] lg:mt-[20px] 2xl:mt-[35px] 2xl:mb-[400px] cursor-pointer z-20 glowBtn z-50'} text={'Read more'} />
+              <Button classes={'xs:mt-6 xs:-ml-24 sm:mt-[100px] xs:my-[200px] xr:my-[100px] sm:mt-[50px] i11:my-[30px] i11:-ml-32 xr:-ml-40 lg:mb-[400px] xl:mb-[0px] lg:mt-[20px] 2xl:mt-[35px] 2xl:mb-[400px] cursor-pointer z-20 glowBtn z-50'} text={'Read more'} />
             </div>
-            <div class="absolute z-10 xs:top-2 sm:-top-0 right-4 sm:-right-10 bg-blur bg-[center_top_-70px] blur-2xl rounded-full h-[30%] xs:w-[200%] sm:w-[150%]"></div>
-            <div class="absolute z-10 xs:top-2 sm:-top-0 right-4 sm:-right-10 bg-blur bg-[center_top_-70px] blur-2xl rounded-full h-[30%] xs:w-[200%] sm:w-[150%]"></div>
+            <div class="absolute z-10 xs:top-2 sm:-top-0 right-4 sm:-right-10 i11:right-10 i11:top-10 xr:top-20 xr:right-20 bg-blur bg-[center_top_-70px] blur-2xl rounded-full h-[30%] xs:w-[200%] sm:w-[150%]"></div>
+            <div class="absolute z-10 xs:top-2 sm:-top-0 right-4 sm:-right-10 i11:right-10 i11:top-10 xr:top-20 xr:right-20 bg-blur bg-[center_top_-70px] blur-2xl rounded-full h-[30%] xs:w-[200%] sm:w-[150%]"></div>
+            <div class="absolute z-10 xs:top-2 sm:-top-0 right-4 sm:-right-10 i11:right-10 i11:top-10 xr:top-20 xr:right-20 bg-blur bg-[center_top_-70px] blur-2xl rounded-full h-[30%] xs:w-[200%] sm:w-[150%]"></div>
+            <div class="absolute z-10 xs:top-2 sm:-top-0 right-4 sm:-right-10 i11:right-10 i11:top-10 xr:top-20 xr:right-20 bg-blur bg-[center_top_-70px] blur-2xl rounded-full h-[30%] xs:w-[200%] sm:w-[150%]"></div>
           </div>
         </div>
       </div>

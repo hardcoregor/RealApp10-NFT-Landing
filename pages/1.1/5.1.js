@@ -24,7 +24,7 @@ const threeFour = () => {
       <div className="absolute inset-0 bg-black opacity-100"></div>
       <div className="relative bg-fiveOne bg-cover lg:bg-contain bg-no-repeat bg-[center_top_0px] w-screen h-screen">
       <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black" />
-        <div className="flex w-full justify-between pt-[50px] px-[50px] relative">
+        <div className="flex w-full justify-between xs:pt-[30px] xs:px-[30px md:pt-[50px] md:px-[50px] relative">
           <div className="flex">
             <div className="-mt-[50px]">
               <Image
@@ -55,9 +55,9 @@ const threeFour = () => {
             </div>
           </Link>
         </div>
-        <div className="flex w-full justify-center pt-[50%] sm:pt-[30%] md:pt-[20%] lg:pt-[10%] xl:pt-[10%] relative">
+        <div className="flex w-full justify-center pt-[40%] sm:pt-[30%] md:pt-[20%] lg:pt-[10%] xl:pt-[10%] relative">
           <h3
-            className={`text-white ${raleway.className} font-medium text-[30px] md:text-[45px] lg:text-[60px] leading-tight w-1/2 md:w-[90%] lg:w-[80%] xl:w-[70%] 2xl:w-[50%] text-center select-none`}
+            className={`text-white ${raleway.className} font-medium text-[30px] xs:w-full md:text-[45px] lg:text-[60px] leading-tight w-1/2 md:w-[90%] lg:w-[80%] xl:w-[70%] 2xl:w-[50%] text-center select-none`}
           >
             You're in a creepy dirty alley you immediately notice that pigeons are looking at you from the visor with hungry eyes
           </h3>
