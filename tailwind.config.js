@@ -15,6 +15,7 @@ module.exports = {
       'i11': '375px',
       'mob': '380px',
       'i12': '390px',
+      'i14': '393px',
       'xr': '414px',
       's': '495px',
       'sm': '640px',
