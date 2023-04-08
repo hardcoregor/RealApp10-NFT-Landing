@@ -29,3 +29,7 @@ root, head {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+.slick-dots {
+  bottom: -150px;
+}

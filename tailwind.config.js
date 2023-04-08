@@ -40,6 +40,8 @@ module.exports = {
         'prologue': "url('../assets/heads.png')",
         'whole': "url('../assets/Whole.jpg')",
         'mdwhole': "url('../assets/WholeMd.jpg')",
+        'smBg': "url('../assets/smBg.jpg')",
+        'quest': "url('../assets/socico/quest.png')",
         'main': "url('../assets/main.png')",
         'cards': "url('../assets/cards.jpg')",
         'pickle': "url('../assets/pickle.jpg')",
