@@ -19,12 +19,16 @@ const oneOne = () => {
   };
   return (
     <div className="relative">
-      <div className="absolute inset-0 bg-black opacity-100"></div>
+      <div className="2k:absolute inset-0 bg-black opacity-100"></div>
+      <div
+        className="absolute inset-0 bg-qBg 2xl:bg-qBgXL bg-cover z-10 opacity-100"
+        style={{ backgroundSize: "100% 100vh" }}
+      ></div>
 
-      <div class="relative bg-oneOne bg-contain bg-no-repeat bg-[center_top_0px] h-screen">
-        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"/>
+      <div class="relative bg-oneOne bg-cover bg-no-repeat bg-[center_top_0px] h-screen lg:bg-contain">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black" />
         <div className="flex w-full justify-between xs:pt-[30px] xs:px-[30px md:pt-[50px] md:px-[50px] relative">
-          <div className="flex">
+          <div className="flex z-30">
             <div className="-mt-[50px]">
               <Image
                 src={logo}
@@ -43,27 +47,29 @@ const oneOne = () => {
               />
             </div>
           </div>
-          <Link href="/">
-            <div className="cursor-pointer text-center">
-              <Image
-                src={exit}
-                alt="exit"
-                height={44}
-                style={{ objectFit: "contain" }}
-              />
-            </div>
-          </Link>
+          <div className="z-20">
+            <Link href="/">
+              <div className="cursor-pointer text-center mr-[20px]">
+                <Image
+                  src={exit}
+                  alt="exit"
+                  height={44}
+                  style={{ objectFit: "contain" }}
+                />
+              </div>
+            </Link>
+          </div>
         </div>
 
-        <div className="flex w-full justify-center pt-[50%] sm:pt-[30%] md:pt-[20%] lg:pt-[10%] xl:pt-[10%] relative">
+        <div className="flex w-full justify-center pt-[50%] sm:pt-[30%] md:pt-[20%] lg:pt-[10%] xl:pt-[5%] relative">
           <h3
-            className={`text-white ${raleway.className} font-medium text-[30px] md:text-[45px] lg:text-[50px] leading-tight w-1/2 md:w-[90%] lg:w-[80%] xl:w-[50%] text-center select-none`}
+            className={`text-white ${raleway.className} font-medium text-[30px] md:text-[45px] lg:text-[45px] leading-tight w-1/2 md:w-[90%] lg:w-[50%] xl:w-[50%] 2xl:w-[40%] text-center select-none z-30`}
           >
             You are in a dirty alley in a dumpster
           </h3>
         </div>
 
-        <div className="flex flex-col xl:flex-row xl:flex-wrap w-full text-center text-white justify-center mt-[10%] xl:mt-[5%] xl:px-[0px] relative">
+        <div className="flex flex-col xl:flex-row xl:flex-wrap w-full text-center text-white justify-center mt-[10%] xl:mt-[5%] xl:px-[0px] relative z-30">
           <Link href="/1.1/2.1">
             <p className="text-5xl cursor-pointer select-none glow">
               NEXT &gt;

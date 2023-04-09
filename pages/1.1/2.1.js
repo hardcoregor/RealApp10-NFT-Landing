@@ -24,11 +24,15 @@ const twoOne = () => {
   };
   return (
     <div className="relative">
-      <div className="absolute inset-0 bg-black opacity-100"></div>
-      <div className="relative bg-twoOne md:bg-cover xl:bg-contain bg-no-repeat bg-[center_top_0px] w-screen h-screen">
+      <div className="2k:absolute inset-0 bg-black opacity-100"></div>
+      <div
+        className="lg:absolute inset-0 bg-qBg 2xl:bg-qBgXL bg-cover z-10 opacity-100"
+        style={{ backgroundSize: "100% 100vh" }}
+      ></div>
+      <div className="relative bg-twoOne bg-cover md:bg-cover lg:bg-contain xl:bg-contain bg-no-repeat bg-[center_top_0px] w-screen h-screen">
         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black" />
         <div className="flex w-full justify-between xs:pt-[30px] xs:px-[30px md:pt-[50px] md:px-[50px] relative">
-          <div className="flex">
+          <div className="flex z-30">
             <div className="-mt-[50px]">
               <Image
                 src={logo}
@@ -47,21 +51,23 @@ const twoOne = () => {
               />
             </div>
           </div>
-          <Link href="/">
-            <div className="cursor-pointer text-center">
-              <Image
-                src={exit}
-                alt="exit"
-                height={44}
-                style={{ objectFit: "contain" }}
-              />
-            </div>
-          </Link>
+          <div className="z-30">
+            <Link href="/">
+              <div className="cursor-pointer text-center mr-[20px]">
+                <Image
+                  src={exit}
+                  alt="exit"
+                  height={44}
+                  style={{ objectFit: "contain" }}
+                />
+              </div>
+            </Link>
+          </div>
         </div>
 
-        <div className="flex w-full justify-center pt-[20%] sm:pt-[15%] md:pt-[20%] lg:pt-[10%] xl:pt-[10%] relative">
+        <div className="flex w-full justify-center pt-[20%] sm:pt-[15%] md:pt-[20%] lg:pt-[2%] xl:pt-[5%] relative">
           <h3
-            className={`text-white ${raleway.className} font-medium text-[25px] xs:w-full sm:w-[90%] md:text-[30px] lg:text-[50px] leading-tight w-1/2 md:w-[90%] xl:w-[70%] 2xl:text-[40px] 2xl:w-[50%] text-center`}
+            className={`text-white ${raleway.className} font-medium text-[25px] xs:w-full sm:w-[90%] md:text-[30px] lg:w-[50%] lg:text-[45px] leading-tight w-1/2 md:w-[90%] xl:w-[55%] 2xl:text-[40px] 2xl:w-[50%] text-center z-30`}
           >
             You find yourself in a trash can and you hear something moving in
             the trash
@@ -69,7 +75,7 @@ const twoOne = () => {
         </div>
 
         <div className="relative flex flex-col xl:flex-row xl:flex-wrap w-full text-center text-white justify-center mt-0 lg:mt-0 xl:mt-[5%] xl:px-[0px]">
-          <div className="mt-[10%] w-full xl:mt-[2%] xl:w-[45%] xl:mr-[2%] xl:justify-end justify-center flex">
+          <div className="mt-[10%] lg:mt-[4%] w-full xl:mt-[2%] xl:w-[45%] xl:mr-[2%] xl:justify-end justify-center flex z-30">
             <div className="cursor-pointer text-center relative">
               <div className="flex xl:hidden">
                 <Image
@@ -102,7 +108,7 @@ const twoOne = () => {
             </div>
           </div>
 
-          <div className="mt-[10%] w-full xl:mt-[2%] xl:w-[45%] xl:ml-[2%] xl:justify-start justify-center flex">
+          <div className="mt-[10%] lg:mt-[4%] w-full xl:mt-[2%] xl:w-[45%] xl:ml-[2%] xl:justify-start justify-center flex z-30">
             <div className="cursor-pointer text-center relative">
               <div className="flex xl:hidden">
                 <Image
@@ -133,7 +139,7 @@ const twoOne = () => {
             </div>
           </div>
 
-          <div className="mt-[10%] w-full xl:mt-[2%] xl:w-[45%] xl:justify-center justify-center flex">
+          <div className="mt-[10%] lg:mt-[4%] w-full xl:mt-[2%] xl:w-[45%] xl:justify-center justify-center flex z-30">
             <div className="cursor-pointer text-center relative">
               <div className="flex xl:hidden">
                 <Image

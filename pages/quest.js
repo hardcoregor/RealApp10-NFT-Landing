@@ -8,9 +8,9 @@ import logo from "../assets/quest/logo.png";
 const quest = () => {
   return (
     <div className="bg-start bg-cover bg-no-repeat bg-[center_top_0px] w-screen h-screen">
-      <div className="flex w-full justify-end pt-[0px] pr-[50px]">
+      <div className="flex w-full justify-end pt-[30px] pr-[20px] md:pt-[50px] md:pr-[50px]">
         <Link href="/">
-          <div className="cursor-pointer text-center">
+          <div className="cursor-pointer text-center mr-[20px]">
             <Image
               src={exit}
               alt="exit"
