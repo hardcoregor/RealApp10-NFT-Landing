@@ -151,9 +151,11 @@ const Prologue = () => {
           </p>
           <p className={`text-white font-light w-[80%] xs:text-left xs:text-[14px] i11:text-[15px] i11:leading-[20px] xs:mt-8 s:text-[19px] s:leading-[24px] sm:text-[16px] sm:leading-[19px] sm:mt-4 sm:text-center md:w-70% md:text-[19px] md:leading-[24px] lg:w-60% lg:text-[20px] lg:leading-[27px] leading-[19px] xl:text-[16px]  2xl:text-xl 2xl:font-light text-center z-20 ${raleway.className}`}>Once on planet Earth, they began their adventure, the goal of which was to survive in extreme conditions and find each other. On their way there are various obstacles and difficulties that put the pickles in mortal danger! Will our heroes be able to overcome all the difficulties and save their lives, and perhaps the entire planet? You can find out all this by reading the main comic book "Pickle Adventure: Prolouge"</p>
           <div className='relative'>
-            <div className='flex z-20'>
-              <Button classes={'xs:mt-6 xs:-ml-24 sm:mt-[100px] xs:my-[200px] xr:my-[100px] sm:mt-[20px] sm:mx-0 i11:my-[30px] i11:-ml-32 i12:mb-[50px] xr:-ml-40 s:-pl-[0px] lg:mb-[400px] xl:mb-[0px] lg:mt-[20px] 2xl:mt-[35px] 2xl:mb-[400px] cursor-pointer z-20 glowBtn z-50'} text={'Read more'} />
-            </div>
+            <a href="https://frank-29.gitbook.io/pickleadventure/" target='_blank'>
+              <div className='flex z-20'>
+                <Button classes={'xs:mt-6 xs:-ml-24 sm:mt-[100px] xs:my-[200px] xr:my-[100px] sm:mt-[20px] sm:mx-0 i11:my-[30px] i11:-ml-32 i12:mb-[50px] xr:-ml-40 s:-pl-[0px] lg:mb-[400px] xl:mb-[0px] lg:mt-[20px] 2xl:mt-[35px] 2xl:mb-[400px] cursor-pointer z-20 glowBtn z-50'} text={'Read more'} />
+              </div>
+            </a>
             <div class="absolute z-10 xs:top-2 right-4 sm:-right-10 i11:right-10 i11:top-10 xr:top-20 xr:right-20 md:top-3 sm:top-12 lg:top-0 xl:top-10 xl:w-[50%] xl:right-8 bg-blur bg-[center_top_-70px] blur-2xl rounded-full h-[30%] xs:w-[200%] sm:w-[150%] 2xl:top-0"></div>
             <div class="absolute z-10 xs:top-2 right-4 sm:-right-10 i11:right-10 i11:top-10 xr:top-20 xr:right-20 md:top-3 sm:top-12 lg:hidden xl:flex xl:top-10 bg-blur bg-[center_top_-70px] blur-2xl rounded-full h-[30%] xs:w-[200%] sm:w-[150%] 2xl:top-0"></div>
             <div class="absolute z-10 xs:top-2 right-4 sm:-right-10 i11:right-10 i11:top-10 xr:top-20 xr:right-20 md:top-3 sm:top-12 lg:hidden xl:flex xl:top-10 bg-blur bg-[center_top_-70px] blur-2xl rounded-full h-[30%] xs:w-[200%] sm:w-[150%] 2xl:hidden"></div>
