@@ -10,15 +10,20 @@ import Router from 'next/router';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const [quest, setQuest] = useState('Quest')
 
   const isOpen = () => {
     setOpen(!open);
     console.log(open)
   }
 
+  const comingSoon = (text) => {
+    setQuest("Soon..");
+  };
+
   function handleClick() {
     Router.push('/quest');
-  }
+  }quest
 
 
   return (
@@ -48,14 +53,14 @@ const Header = () => {
               />
             </a>
           </div>
-          <div className='bg-quest bg-cover w-[120px] h-[47px] mr-6' onClick={handleClick}>
-            <p className='lg:hidden text-2xl h-full ml-16 mt-2'>Quest</p>
+          <div className='bg-quest bg-cover w-[120px] h-[47px] mr-6' /*onClick={handleClick}*/ onClick={comingSoon}>
+            <p className='lg:hidden text-2xl h-full ml-16 mt-2'>{quest}</p>
           </div>
         </div>
         <div className='flex text-3xl items-center text-white '>
           <Link to="background" spy={true} smoot={true} offset={-170} duration={5000} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>Background</Link>
           <Link to="collection" spy={true} smoot={true} offset={0} duration={5000} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>Collection</Link>
-          <div className='flex items-center cursor-pointer glow' onClick={handleClick}>
+          <div className='flex items-center cursor-pointer glow' /*onClick={handleClick}*/ onClick={comingSoon}>
             <div className='mr-5 hidden lg:flex'>
               <Image
                 src={play}
@@ -63,7 +68,7 @@ const Header = () => {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <p spy={true} smoot={true} offset={0} duration={5000} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full'>Quest</p>
+            <p spy={true} smoot={true} offset={0} duration={5000} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full'>{quest}</p>
           </div>
           <Link to="project" spy={true} smoot={true} offset={0} duration={5000} className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>Project</Link>
           <a href='https://frank-29.gitbook.io/pickleadventure/' rel="noopener noreferrer" className='hidden lg:flex mr-[40px] 2xl:mr-[63px] h-full cursor-pointer glow'>
