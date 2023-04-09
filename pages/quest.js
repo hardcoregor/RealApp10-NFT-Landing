@@ -26,7 +26,7 @@ const quest = () => {
           <Image
             src={logo}
             alt="logo"
-            height={410}
+            height={300}
             className="cursor-pointer text-center"
             style={{ objectFit: "contain" }}
           />

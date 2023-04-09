@@ -23,7 +23,7 @@ const settings = {
 
 const Footer = () => {
   return (
-    <div className='w-full h-full bg-no-repeat bg-cover bg-[center_top_0px] relative px-0 xs:px-10 md:pt-[50px] xl:mt-[600px] 2xl:mt-[350px] xl:relative'>
+    <div className='w-full h-full bg-no-repeat bg-cover bg-[center_top_0px] relative px-0 xs:px-10 md:pt-[50px] xl:mt-[800px] 2xl:mt-[350px] xl:relative'>
 
       <div className='flex flex-col justify-center items-center 2k:mt-[200px]'>
         <h1 className='text-white text-[54px] leading-[47px] xs:text-left sm:text-center sm:px-10 sm:text-6xl sm:mt-[50px] lg:pt-[0px] lg:text-7xl lg:hidden 2xl:flex'>Adventure Pickle Principles</h1>
