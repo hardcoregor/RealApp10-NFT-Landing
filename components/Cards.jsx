@@ -88,7 +88,7 @@ const Cards = () => {
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn('left', 'tween', 0.4, 0.5)}
-          className='hidden 2xl:flex 2xl:absolute xl:hidden 2xl:top-20 2xl:right-8'>
+          className='hidden 2xl:flex 2xl:absolute xl:hidden 2xl:top-20 2xl:right-8 2k:hidden'>
           <Image
             src={cards}
             alt="cards"

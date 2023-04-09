@@ -94,11 +94,7 @@ const Prologue = () => {
           />
         </motion.div>
 
-        <motion.div
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
-          variants={fadeIn('left', 'tween', 0.5, 0.5)}
+        <div
           className='hidden 2xl:hidden lg:flex absolute right-0 top-[860px]'
         >
           <Image
@@ -106,7 +102,7 @@ const Prologue = () => {
             alt="prolog"
             height={600}
           />
-        </motion.div>
+        </div>
 
         {/* 2xl */}
         <motion.div
@@ -137,11 +133,7 @@ const Prologue = () => {
           />
         </motion.div>
 
-        <motion.div
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
-          variants={fadeIn('left', 'tween', 0.5, 0.5)}
+        <div
           className='hidden 2xl:flex absolute right-0 top-[700px]'
         >
           <Image
@@ -149,7 +141,7 @@ const Prologue = () => {
             alt="prolog"
             height={1000}
           />
-        </motion.div>
+        </div>
 
         <div className='flex flex-col items-center lg:mb-[0px] md:mb-[600px]'>
           <div className='text-white text-[64px] w-full xs:-mt-4 xs:ml-24 sm:ml-0 sm:text-center xl:-mt-6 2xl:text-7xl'>
