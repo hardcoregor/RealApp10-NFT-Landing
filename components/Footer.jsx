@@ -126,7 +126,7 @@ const Footer = () => {
           <div className='flex xs:mt-4 xs:items-center xs:justify-center xs:w-full md:w-[25%] md:items-start md:mt-0'>
             <div className='flex flex-col 2xl:-ml-[100px]'>
               <h3 className={`text-white text-[16px] font-semibold opacity-90 xs:text-center md:text-left select-none ${raleway.className}`}>Contacts</h3>
-              <span className={`text-white mt-3 opacity-90 ${raleway.className}`}>adventurepickle@gmail.com</span>
+              <span className={`text-white mt-3 opacity-90 ${raleway.className}`}>pickleadventurenft@gmail.com</span>
               <div className='flex mt-5 items-center xs:justify-center md:justify-start'>
                 <a target='_blank' href="https://discord.com/invite/m3VuMRjEsW">
                   <Image src={discord} alt="discord" className="w-[27.5px] h-[27.5px] mr-5 cursor-pointer" />
